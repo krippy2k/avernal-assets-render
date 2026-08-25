@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/projects/avernal/avernal-render-assets/build/_deps/avernal_render-subbuild/CMakeFiles/avernal_render-populate"
+		},
+		{
+			"file" : "D:/projects/avernal/avernal-render-assets/build/_deps/avernal_render-subbuild/CMakeFiles/f5bf9e30054b04cd69a4809de96cca75/avernal_render-populate.rule"
+		},
+		{
+			"file" : "D:/projects/avernal/avernal-render-assets/build/_deps/avernal_render-subbuild/CMakeFiles/e05d2e37da97d60571db5a20036727fb/avernal_render-populate-complete.rule"
+		},
+		{
+			"file" : "D:/projects/avernal/avernal-render-assets/build/_deps/avernal_render-subbuild/CMakeFiles/aff28b58f6d55c7607176ad9b788c9ed/avernal_render-populate-build.rule"
+		},
+		{
+			"file" : "D:/projects/avernal/avernal-render-assets/build/_deps/avernal_render-subbuild/CMakeFiles/aff28b58f6d55c7607176ad9b788c9ed/avernal_render-populate-configure.rule"
+		},
+		{
+			"file" : "D:/projects/avernal/avernal-render-assets/build/_deps/avernal_render-subbuild/CMakeFiles/aff28b58f6d55c7607176ad9b788c9ed/avernal_render-populate-download.rule"
+		},
+		{
+			"file" : "D:/projects/avernal/avernal-render-assets/build/_deps/avernal_render-subbuild/CMakeFiles/aff28b58f6d55c7607176ad9b788c9ed/avernal_render-populate-install.rule"
+		},
+		{
+			"file" : "D:/projects/avernal/avernal-render-assets/build/_deps/avernal_render-subbuild/CMakeFiles/aff28b58f6d55c7607176ad9b788c9ed/avernal_render-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/projects/avernal/avernal-render-assets/build/_deps/avernal_render-subbuild/CMakeFiles/aff28b58f6d55c7607176ad9b788c9ed/avernal_render-populate-patch.rule"
+		},
+		{
+			"file" : "D:/projects/avernal/avernal-render-assets/build/_deps/avernal_render-subbuild/CMakeFiles/aff28b58f6d55c7607176ad9b788c9ed/avernal_render-populate-test.rule"
+		},
+		{
+			"file" : "D:/projects/avernal/avernal-render-assets/build/_deps/avernal_render-subbuild/CMakeFiles/aff28b58f6d55c7607176ad9b788c9ed/avernal_render-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"avernal_render-populate"
+		],
+		"name" : "avernal_render-populate"
+	}
+}

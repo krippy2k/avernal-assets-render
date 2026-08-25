@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\projects\avernal\avernal-render-assets\build\_deps\avernal_math-subbuild\CMakeFiles\327462a18653d69012e54fde85d0c306\avernal_math-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\projects\avernal\avernal-render-assets\build\_deps\avernal_math-subbuild\CMakeFiles\327462a18653d69012e54fde85d0c306\avernal_math-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\projects\avernal\avernal-render-assets\build\_deps\avernal_math-subbuild\CMakeFiles\327462a18653d69012e54fde85d0c306\avernal_math-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\projects\avernal\avernal-render-assets\build\_deps\avernal_math-subbuild\CMakeFiles\327462a18653d69012e54fde85d0c306\avernal_math-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\projects\avernal\avernal-render-assets\build\_deps\avernal_math-subbuild\CMakeFiles\327462a18653d69012e54fde85d0c306\avernal_math-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\projects\avernal\avernal-render-assets\build\_deps\avernal_math-subbuild\CMakeFiles\327462a18653d69012e54fde85d0c306\avernal_math-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\projects\avernal\avernal-render-assets\build\_deps\avernal_math-subbuild\CMakeFiles\327462a18653d69012e54fde85d0c306\avernal_math-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\projects\avernal\avernal-render-assets\build\_deps\avernal_math-subbuild\CMakeFiles\327462a18653d69012e54fde85d0c306\avernal_math-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\projects\avernal\avernal-render-assets\build\_deps\avernal_math-subbuild\CMakeFiles\f0571cccaab029b9cb9697679ddda1dd\avernal_math-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\projects\avernal\avernal-render-assets\build\_deps\avernal_math-subbuild\CMakeFiles\70a3e2f20fa15de61454a3496ba68cbc\avernal_math-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\projects\avernal\avernal-render-assets\build\_deps\avernal_math-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\projects\avernal\avernal-render-assets\build\_deps\avernal_math-subbuild\CMakeFiles\avernal_math-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C1D651B4-0283-3EA9-9800-28E73525D459}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

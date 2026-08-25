@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/projects/avernal/avernal-render-assets/build/_deps/avernal_core-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

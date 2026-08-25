@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/projects/avernal/avernal-render-assets/build/_deps/avernal_window-subbuild/CMakeFiles/avernal_window-populate"
+		},
+		{
+			"file" : "D:/projects/avernal/avernal-render-assets/build/_deps/avernal_window-subbuild/CMakeFiles/52d1fa1d9a99fc3203b72be91c230d5f/avernal_window-populate.rule"
+		},
+		{
+			"file" : "D:/projects/avernal/avernal-render-assets/build/_deps/avernal_window-subbuild/CMakeFiles/133b07f1c6089139c909052150d09614/avernal_window-populate-complete.rule"
+		},
+		{
+			"file" : "D:/projects/avernal/avernal-render-assets/build/_deps/avernal_window-subbuild/CMakeFiles/a8e95d1506388f9ece005cb3ae5378ec/avernal_window-populate-build.rule"
+		},
+		{
+			"file" : "D:/projects/avernal/avernal-render-assets/build/_deps/avernal_window-subbuild/CMakeFiles/a8e95d1506388f9ece005cb3ae5378ec/avernal_window-populate-configure.rule"
+		},
+		{
+			"file" : "D:/projects/avernal/avernal-render-assets/build/_deps/avernal_window-subbuild/CMakeFiles/a8e95d1506388f9ece005cb3ae5378ec/avernal_window-populate-download.rule"
+		},
+		{
+			"file" : "D:/projects/avernal/avernal-render-assets/build/_deps/avernal_window-subbuild/CMakeFiles/a8e95d1506388f9ece005cb3ae5378ec/avernal_window-populate-install.rule"
+		},
+		{
+			"file" : "D:/projects/avernal/avernal-render-assets/build/_deps/avernal_window-subbuild/CMakeFiles/a8e95d1506388f9ece005cb3ae5378ec/avernal_window-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/projects/avernal/avernal-render-assets/build/_deps/avernal_window-subbuild/CMakeFiles/a8e95d1506388f9ece005cb3ae5378ec/avernal_window-populate-patch.rule"
+		},
+		{
+			"file" : "D:/projects/avernal/avernal-render-assets/build/_deps/avernal_window-subbuild/CMakeFiles/a8e95d1506388f9ece005cb3ae5378ec/avernal_window-populate-test.rule"
+		},
+		{
+			"file" : "D:/projects/avernal/avernal-render-assets/build/_deps/avernal_window-subbuild/CMakeFiles/a8e95d1506388f9ece005cb3ae5378ec/avernal_window-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"avernal_window-populate"
+		],
+		"name" : "avernal_window-populate"
+	}
+}

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\projects\avernal\avernal-render-assets\build\_deps\avernal_render-subbuild\CMakeFiles\aff28b58f6d55c7607176ad9b788c9ed\avernal_render-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\projects\avernal\avernal-render-assets\build\_deps\avernal_render-subbuild\CMakeFiles\aff28b58f6d55c7607176ad9b788c9ed\avernal_render-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\projects\avernal\avernal-render-assets\build\_deps\avernal_render-subbuild\CMakeFiles\aff28b58f6d55c7607176ad9b788c9ed\avernal_render-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\projects\avernal\avernal-render-assets\build\_deps\avernal_render-subbuild\CMakeFiles\aff28b58f6d55c7607176ad9b788c9ed\avernal_render-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\projects\avernal\avernal-render-assets\build\_deps\avernal_render-subbuild\CMakeFiles\aff28b58f6d55c7607176ad9b788c9ed\avernal_render-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\projects\avernal\avernal-render-assets\build\_deps\avernal_render-subbuild\CMakeFiles\aff28b58f6d55c7607176ad9b788c9ed\avernal_render-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\projects\avernal\avernal-render-assets\build\_deps\avernal_render-subbuild\CMakeFiles\aff28b58f6d55c7607176ad9b788c9ed\avernal_render-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\projects\avernal\avernal-render-assets\build\_deps\avernal_render-subbuild\CMakeFiles\aff28b58f6d55c7607176ad9b788c9ed\avernal_render-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\projects\avernal\avernal-render-assets\build\_deps\avernal_render-subbuild\CMakeFiles\e05d2e37da97d60571db5a20036727fb\avernal_render-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\projects\avernal\avernal-render-assets\build\_deps\avernal_render-subbuild\CMakeFiles\f5bf9e30054b04cd69a4809de96cca75\avernal_render-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\projects\avernal\avernal-render-assets\build\_deps\avernal_render-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\projects\avernal\avernal-render-assets\build\_deps\avernal_render-subbuild\CMakeFiles\avernal_render-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5999ABBD-50D9-3D78-B776-CAC3AC809AD1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

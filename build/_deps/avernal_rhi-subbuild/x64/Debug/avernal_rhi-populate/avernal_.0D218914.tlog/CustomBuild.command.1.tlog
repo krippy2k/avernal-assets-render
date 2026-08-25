@@ -1,0 +1,144 @@
+^D:\PROJECTS\AVERNAL\AVERNAL-RENDER-ASSETS\BUILD\_DEPS\AVERNAL_RHI-SUBBUILD\CMAKEFILES\F15DABEE28198CEA00F5B7155505B387\AVERNAL_RHI-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P D:/projects/avernal/avernal-render-assets/build/_deps/avernal_rhi-subbuild/avernal_rhi-populate-prefix/tmp/avernal_rhi-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/projects/avernal/avernal-render-assets/build/_deps/avernal_rhi-subbuild/avernal_rhi-populate-prefix/src/avernal_rhi-populate-stamp/Debug/avernal_rhi-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJECTS\AVERNAL\AVERNAL-RENDER-ASSETS\BUILD\_DEPS\AVERNAL_RHI-SUBBUILD\CMAKEFILES\F15DABEE28198CEA00F5B7155505B387\AVERNAL_RHI-POPULATE-DOWNLOAD.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/projects/avernal/avernal-render-assets/build/_deps/avernal_rhi-subbuild/avernal_rhi-populate-prefix/src/avernal_rhi-populate-stamp/Debug/avernal_rhi-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJECTS\AVERNAL\AVERNAL-RENDER-ASSETS\BUILD\_DEPS\AVERNAL_RHI-SUBBUILD\CMAKEFILES\F15DABEE28198CEA00F5B7155505B387\AVERNAL_RHI-POPULATE-UPDATE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/projects/avernal/avernal-render-assets/build/_deps/avernal_rhi-subbuild/avernal_rhi-populate-prefix/src/avernal_rhi-populate-stamp/Debug/avernal_rhi-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJECTS\AVERNAL\AVERNAL-RENDER-ASSETS\BUILD\_DEPS\AVERNAL_RHI-SUBBUILD\CMAKEFILES\F15DABEE28198CEA00F5B7155505B387\AVERNAL_RHI-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/projects/avernal/avernal-render-assets/build/_deps/avernal_rhi-subbuild/avernal_rhi-populate-prefix/src/avernal_rhi-populate-stamp/Debug/avernal_rhi-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJECTS\AVERNAL\AVERNAL-RENDER-ASSETS\BUILD\_DEPS\AVERNAL_RHI-SUBBUILD\CMAKEFILES\F15DABEE28198CEA00F5B7155505B387\AVERNAL_RHI-POPULATE-CONFIGURE.RULE
+setlocal
+cd D:\projects\avernal\avernal-render-assets\build\_deps\avernal_rhi-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/projects/avernal/avernal-render-assets/build/_deps/avernal_rhi-subbuild/avernal_rhi-populate-prefix/src/avernal_rhi-populate-stamp/Debug/avernal_rhi-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJECTS\AVERNAL\AVERNAL-RENDER-ASSETS\BUILD\_DEPS\AVERNAL_RHI-SUBBUILD\CMAKEFILES\F15DABEE28198CEA00F5B7155505B387\AVERNAL_RHI-POPULATE-BUILD.RULE
+setlocal
+cd D:\projects\avernal\avernal-render-assets\build\_deps\avernal_rhi-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/projects/avernal/avernal-render-assets/build/_deps/avernal_rhi-subbuild/avernal_rhi-populate-prefix/src/avernal_rhi-populate-stamp/Debug/avernal_rhi-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJECTS\AVERNAL\AVERNAL-RENDER-ASSETS\BUILD\_DEPS\AVERNAL_RHI-SUBBUILD\CMAKEFILES\F15DABEE28198CEA00F5B7155505B387\AVERNAL_RHI-POPULATE-INSTALL.RULE
+setlocal
+cd D:\projects\avernal\avernal-render-assets\build\_deps\avernal_rhi-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/projects/avernal/avernal-render-assets/build/_deps/avernal_rhi-subbuild/avernal_rhi-populate-prefix/src/avernal_rhi-populate-stamp/Debug/avernal_rhi-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJECTS\AVERNAL\AVERNAL-RENDER-ASSETS\BUILD\_DEPS\AVERNAL_RHI-SUBBUILD\CMAKEFILES\F15DABEE28198CEA00F5B7155505B387\AVERNAL_RHI-POPULATE-TEST.RULE
+setlocal
+cd D:\projects\avernal\avernal-render-assets\build\_deps\avernal_rhi-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/projects/avernal/avernal-render-assets/build/_deps/avernal_rhi-subbuild/avernal_rhi-populate-prefix/src/avernal_rhi-populate-stamp/Debug/avernal_rhi-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJECTS\AVERNAL\AVERNAL-RENDER-ASSETS\BUILD\_DEPS\AVERNAL_RHI-SUBBUILD\CMAKEFILES\76C35928E19DA20CB673B7A49806DDA2\AVERNAL_RHI-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/projects/avernal/avernal-render-assets/build/_deps/avernal_rhi-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/projects/avernal/avernal-render-assets/build/_deps/avernal_rhi-subbuild/CMakeFiles/Debug/avernal_rhi-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/projects/avernal/avernal-render-assets/build/_deps/avernal_rhi-subbuild/avernal_rhi-populate-prefix/src/avernal_rhi-populate-stamp/Debug/avernal_rhi-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJECTS\AVERNAL\AVERNAL-RENDER-ASSETS\BUILD\_DEPS\AVERNAL_RHI-SUBBUILD\CMAKEFILES\BDB4F338DDFFF97D3A357B86B34993D1\AVERNAL_RHI-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJECTS\AVERNAL\AVERNAL-RENDER-ASSETS\BUILD\_DEPS\AVERNAL_RHI-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/projects/avernal/avernal-render-assets/build/_deps/avernal_rhi-subbuild -BD:/projects/avernal/avernal-render-assets/build/_deps/avernal_rhi-subbuild --check-stamp-file D:/projects/avernal/avernal-render-assets/build/_deps/avernal_rhi-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

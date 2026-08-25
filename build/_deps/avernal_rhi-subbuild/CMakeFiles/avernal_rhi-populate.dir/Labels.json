@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/projects/avernal/avernal-render-assets/build/_deps/avernal_rhi-subbuild/CMakeFiles/avernal_rhi-populate"
+		},
+		{
+			"file" : "D:/projects/avernal/avernal-render-assets/build/_deps/avernal_rhi-subbuild/CMakeFiles/bdb4f338ddfff97d3a357b86b34993d1/avernal_rhi-populate.rule"
+		},
+		{
+			"file" : "D:/projects/avernal/avernal-render-assets/build/_deps/avernal_rhi-subbuild/CMakeFiles/76c35928e19da20cb673b7a49806dda2/avernal_rhi-populate-complete.rule"
+		},
+		{
+			"file" : "D:/projects/avernal/avernal-render-assets/build/_deps/avernal_rhi-subbuild/CMakeFiles/f15dabee28198cea00f5b7155505b387/avernal_rhi-populate-build.rule"
+		},
+		{
+			"file" : "D:/projects/avernal/avernal-render-assets/build/_deps/avernal_rhi-subbuild/CMakeFiles/f15dabee28198cea00f5b7155505b387/avernal_rhi-populate-configure.rule"
+		},
+		{
+			"file" : "D:/projects/avernal/avernal-render-assets/build/_deps/avernal_rhi-subbuild/CMakeFiles/f15dabee28198cea00f5b7155505b387/avernal_rhi-populate-download.rule"
+		},
+		{
+			"file" : "D:/projects/avernal/avernal-render-assets/build/_deps/avernal_rhi-subbuild/CMakeFiles/f15dabee28198cea00f5b7155505b387/avernal_rhi-populate-install.rule"
+		},
+		{
+			"file" : "D:/projects/avernal/avernal-render-assets/build/_deps/avernal_rhi-subbuild/CMakeFiles/f15dabee28198cea00f5b7155505b387/avernal_rhi-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/projects/avernal/avernal-render-assets/build/_deps/avernal_rhi-subbuild/CMakeFiles/f15dabee28198cea00f5b7155505b387/avernal_rhi-populate-patch.rule"
+		},
+		{
+			"file" : "D:/projects/avernal/avernal-render-assets/build/_deps/avernal_rhi-subbuild/CMakeFiles/f15dabee28198cea00f5b7155505b387/avernal_rhi-populate-test.rule"
+		},
+		{
+			"file" : "D:/projects/avernal/avernal-render-assets/build/_deps/avernal_rhi-subbuild/CMakeFiles/f15dabee28198cea00f5b7155505b387/avernal_rhi-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"avernal_rhi-populate"
+		],
+		"name" : "avernal_rhi-populate"
+	}
+}

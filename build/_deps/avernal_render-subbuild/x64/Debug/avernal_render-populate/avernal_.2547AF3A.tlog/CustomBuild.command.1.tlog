@@ -1,0 +1,144 @@
+^D:\PROJECTS\AVERNAL\AVERNAL-RENDER-ASSETS\BUILD\_DEPS\AVERNAL_RENDER-SUBBUILD\CMAKEFILES\AFF28B58F6D55C7607176AD9B788C9ED\AVERNAL_RENDER-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P D:/projects/avernal/avernal-render-assets/build/_deps/avernal_render-subbuild/avernal_render-populate-prefix/tmp/avernal_render-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/projects/avernal/avernal-render-assets/build/_deps/avernal_render-subbuild/avernal_render-populate-prefix/src/avernal_render-populate-stamp/Debug/avernal_render-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJECTS\AVERNAL\AVERNAL-RENDER-ASSETS\BUILD\_DEPS\AVERNAL_RENDER-SUBBUILD\CMAKEFILES\AFF28B58F6D55C7607176AD9B788C9ED\AVERNAL_RENDER-POPULATE-DOWNLOAD.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/projects/avernal/avernal-render-assets/build/_deps/avernal_render-subbuild/avernal_render-populate-prefix/src/avernal_render-populate-stamp/Debug/avernal_render-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJECTS\AVERNAL\AVERNAL-RENDER-ASSETS\BUILD\_DEPS\AVERNAL_RENDER-SUBBUILD\CMAKEFILES\AFF28B58F6D55C7607176AD9B788C9ED\AVERNAL_RENDER-POPULATE-UPDATE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/projects/avernal/avernal-render-assets/build/_deps/avernal_render-subbuild/avernal_render-populate-prefix/src/avernal_render-populate-stamp/Debug/avernal_render-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJECTS\AVERNAL\AVERNAL-RENDER-ASSETS\BUILD\_DEPS\AVERNAL_RENDER-SUBBUILD\CMAKEFILES\AFF28B58F6D55C7607176AD9B788C9ED\AVERNAL_RENDER-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/projects/avernal/avernal-render-assets/build/_deps/avernal_render-subbuild/avernal_render-populate-prefix/src/avernal_render-populate-stamp/Debug/avernal_render-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJECTS\AVERNAL\AVERNAL-RENDER-ASSETS\BUILD\_DEPS\AVERNAL_RENDER-SUBBUILD\CMAKEFILES\AFF28B58F6D55C7607176AD9B788C9ED\AVERNAL_RENDER-POPULATE-CONFIGURE.RULE
+setlocal
+cd D:\projects\avernal\avernal-render-assets\build\_deps\avernal_render-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/projects/avernal/avernal-render-assets/build/_deps/avernal_render-subbuild/avernal_render-populate-prefix/src/avernal_render-populate-stamp/Debug/avernal_render-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJECTS\AVERNAL\AVERNAL-RENDER-ASSETS\BUILD\_DEPS\AVERNAL_RENDER-SUBBUILD\CMAKEFILES\AFF28B58F6D55C7607176AD9B788C9ED\AVERNAL_RENDER-POPULATE-BUILD.RULE
+setlocal
+cd D:\projects\avernal\avernal-render-assets\build\_deps\avernal_render-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/projects/avernal/avernal-render-assets/build/_deps/avernal_render-subbuild/avernal_render-populate-prefix/src/avernal_render-populate-stamp/Debug/avernal_render-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJECTS\AVERNAL\AVERNAL-RENDER-ASSETS\BUILD\_DEPS\AVERNAL_RENDER-SUBBUILD\CMAKEFILES\AFF28B58F6D55C7607176AD9B788C9ED\AVERNAL_RENDER-POPULATE-INSTALL.RULE
+setlocal
+cd D:\projects\avernal\avernal-render-assets\build\_deps\avernal_render-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/projects/avernal/avernal-render-assets/build/_deps/avernal_render-subbuild/avernal_render-populate-prefix/src/avernal_render-populate-stamp/Debug/avernal_render-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJECTS\AVERNAL\AVERNAL-RENDER-ASSETS\BUILD\_DEPS\AVERNAL_RENDER-SUBBUILD\CMAKEFILES\AFF28B58F6D55C7607176AD9B788C9ED\AVERNAL_RENDER-POPULATE-TEST.RULE
+setlocal
+cd D:\projects\avernal\avernal-render-assets\build\_deps\avernal_render-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/projects/avernal/avernal-render-assets/build/_deps/avernal_render-subbuild/avernal_render-populate-prefix/src/avernal_render-populate-stamp/Debug/avernal_render-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJECTS\AVERNAL\AVERNAL-RENDER-ASSETS\BUILD\_DEPS\AVERNAL_RENDER-SUBBUILD\CMAKEFILES\E05D2E37DA97D60571DB5A20036727FB\AVERNAL_RENDER-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/projects/avernal/avernal-render-assets/build/_deps/avernal_render-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/projects/avernal/avernal-render-assets/build/_deps/avernal_render-subbuild/CMakeFiles/Debug/avernal_render-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/projects/avernal/avernal-render-assets/build/_deps/avernal_render-subbuild/avernal_render-populate-prefix/src/avernal_render-populate-stamp/Debug/avernal_render-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJECTS\AVERNAL\AVERNAL-RENDER-ASSETS\BUILD\_DEPS\AVERNAL_RENDER-SUBBUILD\CMAKEFILES\F5BF9E30054B04CD69A4809DE96CCA75\AVERNAL_RENDER-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJECTS\AVERNAL\AVERNAL-RENDER-ASSETS\BUILD\_DEPS\AVERNAL_RENDER-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/projects/avernal/avernal-render-assets/build/_deps/avernal_render-subbuild -BD:/projects/avernal/avernal-render-assets/build/_deps/avernal_render-subbuild --check-stamp-file D:/projects/avernal/avernal-render-assets/build/_deps/avernal_render-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

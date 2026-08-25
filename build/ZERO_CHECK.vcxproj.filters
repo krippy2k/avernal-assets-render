@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\projects\avernal\avernal-render-assets\build\CMakeFiles\c634612c979b2c7009a0b3e13a9fe888\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BA87387A-2D4A-3436-BEF5-ED7F9FB28594}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

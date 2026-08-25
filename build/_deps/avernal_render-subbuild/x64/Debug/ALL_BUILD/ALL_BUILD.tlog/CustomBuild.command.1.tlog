@@ -1,0 +1,10 @@
+^D:\PROJECTS\AVERNAL\AVERNAL-RENDER-ASSETS\BUILD\_DEPS\AVERNAL_RENDER-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/projects/avernal/avernal-render-assets/build/_deps/avernal_render-subbuild -BD:/projects/avernal/avernal-render-assets/build/_deps/avernal_render-subbuild --check-stamp-file D:/projects/avernal/avernal-render-assets/build/_deps/avernal_render-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

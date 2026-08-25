@@ -1,0 +1,10 @@
+^D:\PROJECTS\AVERNAL\AVERNAL-RENDER-ASSETS\BUILD\CMAKEFILES\C634612C979B2C7009A0B3E13A9FE888\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/projects/avernal/avernal-render-assets -BD:/projects/avernal/avernal-render-assets/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/projects/avernal/avernal-render-assets/build/avernal-render-assets.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

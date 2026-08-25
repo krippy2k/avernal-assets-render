@@ -1,0 +1,10 @@
+^D:\PROJECTS\AVERNAL\AVERNAL-RENDER-ASSETS\BUILD\_DEPS\AVERNAL_WINDOW-SUBBUILD\CMAKEFILES\52D1FA1D9A99FC3203B72BE91C230D5F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/projects/avernal/avernal-render-assets/build/_deps/avernal_window-subbuild -BD:/projects/avernal/avernal-render-assets/build/_deps/avernal_window-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/projects/avernal/avernal-render-assets/build/_deps/avernal_window-subbuild/avernal_window-populate.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

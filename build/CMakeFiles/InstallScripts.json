@@ -1,0 +1,13 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/projects/avernal/avernal-render-assets/build/cmake_install.cmake",
+		"D:/projects/avernal/avernal-render-assets/build/_deps/avernal_core-build/cmake_install.cmake",
+		"D:/projects/avernal/avernal-render-assets/build/_deps/avernal_assets-build/cmake_install.cmake",
+		"D:/projects/avernal/avernal-render-assets/build/_deps/avernal_render-build/cmake_install.cmake",
+		"D:/projects/avernal/avernal-render-assets/build/_deps/avernal_rhi-build/cmake_install.cmake",
+		"D:/projects/avernal/avernal-render-assets/build/_deps/avernal_window-build/cmake_install.cmake",
+		"D:/projects/avernal/avernal-render-assets/build/_deps/avernal_math-build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

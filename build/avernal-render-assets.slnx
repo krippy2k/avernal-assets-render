@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+	<Configurations>
+		<BuildType Name="Debug"/>
+		<BuildType Name="Release"/>
+		<BuildType Name="MinSizeRel"/>
+		<BuildType Name="RelWithDebInfo"/>
+		<Platform Name="x64"/>
+	</Configurations>
+	<Project Path="_deps/avernal_assets-build/avernal-assets.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="2d49cc7b-37b4-3161-a670-2db1e90d6739">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="_deps/avernal_core-build/avernal-core.vcxproj"/>
+	</Project>
+	<Project Path="_deps/avernal_core-build/avernal-core.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="e0ef86e3-dd48-30af-badf-cba0aaf0bfc1">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="_deps/avernal_math-build/avernal-math.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="2de795eb-6364-3053-8891-26c1933ee9c9">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="_deps/avernal_core-build/avernal-core.vcxproj"/>
+	</Project>
+	<Project Path="_deps/avernal_render-build/avernal-render.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="3c8b90a9-9092-39c0-8f5d-a8bf8964f551">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="_deps/avernal_core-build/avernal-core.vcxproj"/>
+		<BuildDependency Project="_deps/avernal_math-build/avernal-math.vcxproj"/>
+		<BuildDependency Project="_deps/avernal_rhi-build/avernal-rhi.vcxproj"/>
+		<BuildDependency Project="_deps/avernal_window-build/avernal-window.vcxproj"/>
+	</Project>
+	<Project Path="avernal-render-assets.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="8c89ec3b-a726-3927-97ba-40e01c8d828d">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="_deps/avernal_assets-build/avernal-assets.vcxproj"/>
+		<BuildDependency Project="_deps/avernal_core-build/avernal-core.vcxproj"/>
+		<BuildDependency Project="_deps/avernal_math-build/avernal-math.vcxproj"/>
+		<BuildDependency Project="_deps/avernal_render-build/avernal-render.vcxproj"/>
+		<BuildDependency Project="_deps/avernal_rhi-build/avernal-rhi.vcxproj"/>
+		<BuildDependency Project="_deps/avernal_window-build/avernal-window.vcxproj"/>
+	</Project>
+	<Project Path="_deps/avernal_rhi-build/avernal-rhi.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="d7690031-9dfa-36db-9a3c-0f7a35f372f5">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="_deps/avernal_core-build/avernal-core.vcxproj"/>
+		<BuildDependency Project="_deps/avernal_math-build/avernal-math.vcxproj"/>
+		<BuildDependency Project="_deps/avernal_window-build/avernal-window.vcxproj"/>
+	</Project>
+	<Project Path="_deps/avernal_window-build/avernal-window.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="38906d1d-e6b0-3ce1-82fe-c071e27406bb">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="_deps/avernal_core-build/avernal-core.vcxproj"/>
+	</Project>
+	<Folder Name="/CMakePredefinedTargets/">
+		<Project Path="ALL_BUILD.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="b23c2728-e96e-3521-8b3d-69d509e3ee3e" DefaultStartup="true">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="avernal-render-assets.vcxproj"/>
+			<Build Solution="Debug|*" Project="false"/>
+			<Build Solution="Release|*" Project="false"/>
+			<Build Solution="MinSizeRel|*" Project="false"/>
+			<Build Solution="RelWithDebInfo|*" Project="false"/>
+		</Project>
+		<Project Path="ZERO_CHECK.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="766578ff-4743-314a-98d9-b9fcea54a2cb"/>
+	</Folder>
+</Solution>

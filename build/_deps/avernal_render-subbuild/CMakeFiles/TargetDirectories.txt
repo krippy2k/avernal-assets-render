@@ -1,0 +1,3 @@
+D:/projects/avernal/avernal-render-assets/build/_deps/avernal_render-subbuild/CMakeFiles/avernal_render-populate.dir
+D:/projects/avernal/avernal-render-assets/build/_deps/avernal_render-subbuild/CMakeFiles/ALL_BUILD.dir
+D:/projects/avernal/avernal-render-assets/build/_deps/avernal_render-subbuild/CMakeFiles/ZERO_CHECK.dir

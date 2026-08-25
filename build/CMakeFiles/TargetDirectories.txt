@@ -1,0 +1,15 @@
+D:/projects/avernal/avernal-render-assets/build/CMakeFiles/avernal-render-assets.dir
+D:/projects/avernal/avernal-render-assets/build/CMakeFiles/ALL_BUILD.dir
+D:/projects/avernal/avernal-render-assets/build/CMakeFiles/ZERO_CHECK.dir
+D:/projects/avernal/avernal-render-assets/build/_deps/avernal_core-build/CMakeFiles/avernal-core.dir
+D:/projects/avernal/avernal-render-assets/build/_deps/avernal_core-build/CMakeFiles/ALL_BUILD.dir
+D:/projects/avernal/avernal-render-assets/build/_deps/avernal_assets-build/CMakeFiles/avernal-assets.dir
+D:/projects/avernal/avernal-render-assets/build/_deps/avernal_assets-build/CMakeFiles/ALL_BUILD.dir
+D:/projects/avernal/avernal-render-assets/build/_deps/avernal_render-build/CMakeFiles/avernal-render.dir
+D:/projects/avernal/avernal-render-assets/build/_deps/avernal_render-build/CMakeFiles/ALL_BUILD.dir
+D:/projects/avernal/avernal-render-assets/build/_deps/avernal_rhi-build/CMakeFiles/avernal-rhi.dir
+D:/projects/avernal/avernal-render-assets/build/_deps/avernal_rhi-build/CMakeFiles/ALL_BUILD.dir
+D:/projects/avernal/avernal-render-assets/build/_deps/avernal_window-build/CMakeFiles/avernal-window.dir
+D:/projects/avernal/avernal-render-assets/build/_deps/avernal_window-build/CMakeFiles/ALL_BUILD.dir
+D:/projects/avernal/avernal-render-assets/build/_deps/avernal_math-build/CMakeFiles/avernal-math.dir
+D:/projects/avernal/avernal-render-assets/build/_deps/avernal_math-build/CMakeFiles/ALL_BUILD.dir
