@@ -1,59 +1,95 @@
 #include <avernal/assets_render/mesh_asset.hpp>
 #include <avernal/core/assert.hpp>
 #include <avernal/rhi/rhi.hpp>
+
+#include <filesystem>
 #include <fstream>
 #include <sstream>
 #include <unordered_map>
 
 namespace avernal {
 
-MeshAssetLoader::MeshAssetLoader(Device& device)
-    : device_(&device) {
+std::optional<render::MeshGeometry> load_avmesh(const std::filesystem::path& path) {
+    std::ifstream file{path, std::ios::binary | std::ios::ate};
+    if (!file) {
+        return std::nullopt;
+    }
+
+    const auto size = static_cast<std::size_t>(file.tellg());
+    file.seekg(0, std::ios::beg);
+    std::vector<std::byte> bytes(size);
+    if (size > 0 &&
+        !file.read(reinterpret_cast<char*>(bytes.data()), static_cast<std::streamsize>(size))) {
+        return std::nullopt;
+    }
+    return render::read_avmesh(bytes);
+}
+
+bool save_avmesh(const std::filesystem::path& path, const render::MeshGeometry& geometry) {
+    const auto bytes = render::write_avmesh(geometry);
+    std::ofstream file{path, std::ios::binary};
+    if (!file) {
+        return false;
+    }
+    file.write(reinterpret_cast<const char*>(bytes.data()), static_cast<std::streamsize>(bytes.size()));
+    return static_cast<bool>(file);
+}
+
+render::IndexFormat MeshAsset::index_format() const noexcept {
+    return mesh_ != nullptr ? mesh_->index_format() : render::IndexFormat::uint16;
+}
+
+std::span<const render::Submesh> MeshAsset::submeshes() const noexcept {
+    return mesh_ != nullptr ? mesh_->submeshes() : std::span<const render::Submesh>{};
+}
+
+const render::Bounds* MeshAsset::bounds() const noexcept {
+    return mesh_ != nullptr ? &mesh_->bounds() : nullptr;
+}
+
+MeshAssetLoader::MeshAssetLoader(Device& device) : device_(&device) {
     AV_ASSERT(device_ != nullptr);
 }
 
-std::shared_ptr<Asset> MeshAssetLoader::load(
-    AssetId id,
-    std::string_view path,
-    const AssetMetadata& metadata
-) {
-    // Determine file format and load
-    MeshVertexData data;
-    
-    if (path.ends_with(".obj")) {
-        data = load_obj(path);
-    } else {
+std::shared_ptr<MeshAsset> MeshAssetLoader::make_asset(const render::MeshGeometry& geometry) {
+    auto mesh = render::Mesh::create(*device_, geometry);
+    if (!mesh) {
         return nullptr;
     }
-    
+
+    auto asset = std::make_shared<MeshAsset>();
+    asset->vertex_count_ = mesh->vertex_count();
+    asset->index_count_ = mesh->index_count();
+    asset->mesh_ = std::move(mesh);
+    return asset;
+}
+
+std::shared_ptr<Asset> MeshAssetLoader::load(
+    [[maybe_unused]] AssetId id, std::string_view path, [[maybe_unused]] const AssetMetadata& metadata) {
+    if (path.ends_with(".avmesh")) {
+        const auto geometry = load_avmesh(std::filesystem::path{path});
+        if (!geometry) {
+            return nullptr;
+        }
+        return make_asset(*geometry);
+    }
+
+    if (!path.ends_with(".obj") && !path.ends_with(".mesh")) {
+        return nullptr;
+    }
+
+    MeshVertexData data = load_obj(path);
     if (data.vertices.empty()) {
         return nullptr;
     }
-    
-    // Convert uint32 indices to uint16
+
     std::vector<std::uint16_t> indices16;
     indices16.reserve(data.indices.size());
     for (auto idx : data.indices) {
         indices16.push_back(static_cast<std::uint16_t>(idx));
     }
-    
-    // Create mesh asset
-    auto asset = std::make_shared<MeshAsset>();
-    asset->vertex_count_ = static_cast<std::uint32_t>(data.vertices.size());
-    asset->index_count_ = static_cast<std::uint32_t>(indices16.size());
-    
-    // Create render mesh
-    asset->mesh_ = render::Mesh::create(
-        *device_,
-        data.vertices,
-        indices16
-    );
-    
-    if (!asset->mesh_) {
-        return nullptr;
-    }
-    
-    return asset;
+
+    return make_asset(render::mesh_geometry_from_vertices(data.vertices, indices16));
 }
 
 void MeshAssetLoader::unload(Asset* asset) {
@@ -62,8 +98,7 @@ void MeshAssetLoader::unload(Asset* asset) {
     }
 }
 
-bool MeshAssetLoader::reload(Asset* asset) {
-    // TODO: Implement mesh reloading
+bool MeshAssetLoader::reload([[maybe_unused]] Asset* asset) {
     return false;
 }
 
