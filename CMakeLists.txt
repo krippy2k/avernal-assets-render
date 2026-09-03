@@ -83,20 +83,33 @@ add_library(avernal::assets_render ALIAS avernal-assets-render)
 target_sources(
     avernal-assets-render
     PRIVATE
-        src/texture_asset.cpp
+        src/avmat.cpp
+        src/avmodel.cpp
+        src/avtex.cpp
+        src/image.cpp
         src/material_asset.cpp
         src/mesh_asset.cpp
+        src/model_asset.cpp
         src/shader_asset.cpp
+        src/stb_image_impl.cpp
+        src/texture_asset.cpp
     PUBLIC
         FILE_SET HEADERS
         BASE_DIRS include
         FILES
             include/avernal/assets_render/assets_render.hpp
-            include/avernal/assets_render/texture_asset.hpp
+            include/avernal/assets_render/avmat.hpp
+            include/avernal/assets_render/avmodel.hpp
+            include/avernal/assets_render/avtex.hpp
+            include/avernal/assets_render/image.hpp
             include/avernal/assets_render/material_asset.hpp
             include/avernal/assets_render/mesh_asset.hpp
+            include/avernal/assets_render/model_asset.hpp
             include/avernal/assets_render/shader_asset.hpp
+            include/avernal/assets_render/texture_asset.hpp
 )
+
+target_include_directories(avernal-assets-render PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/third_party")
 
 target_link_libraries(avernal-assets-render PUBLIC 
     avernal::core 

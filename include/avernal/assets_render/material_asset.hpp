@@ -43,7 +43,7 @@ public:
     }
     
     [[nodiscard]] std::vector<std::string> extensions() const override {
-        return {".mat", ".material"};
+        return {".mat", ".material", ".avmat"};
     }
     
     [[nodiscard]] std::shared_ptr<Asset> load(
@@ -56,6 +56,10 @@ public:
     bool reload(Asset* asset) override;
 
 private:
+    [[nodiscard]] std::shared_ptr<Asset> create_material(std::string_view owner_path, const Color& color,
+        bool use_texture, bool use_3d, bool use_depth, std::string_view texture_path,
+        bool two_sided = false);
+
     Device* device_;
     AssetManager* asset_manager_;
 };

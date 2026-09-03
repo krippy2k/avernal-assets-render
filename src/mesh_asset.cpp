@@ -27,6 +27,9 @@ std::optional<render::MeshGeometry> load_avmesh(const std::filesystem::path& pat
 
 bool save_avmesh(const std::filesystem::path& path, const render::MeshGeometry& geometry) {
     const auto bytes = render::write_avmesh(geometry);
+    if (path.has_parent_path()) {
+        std::filesystem::create_directories(path.parent_path());
+    }
     std::ofstream file{path, std::ios::binary};
     if (!file) {
         return false;

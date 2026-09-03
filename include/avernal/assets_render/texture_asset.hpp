@@ -46,7 +46,7 @@ public:
     }
     
     [[nodiscard]] std::vector<std::string> extensions() const override {
-        return {".png", ".jpg", ".jpeg", ".bmp", ".tga"};
+        return {".png", ".jpg", ".jpeg", ".bmp", ".tga", ".avtex"};
     }
     
     [[nodiscard]] std::shared_ptr<Asset> load(

@@ -15,7 +15,7 @@ set(INSTALL_GTEST OFF CACHE BOOL "" FORCE)
 
 FetchContent_MakeAvailable(googletest)
 
-add_executable(avernal-assets-render-tests avmesh_io_test.cpp)
+add_executable(avernal-assets-render-tests avmesh_io_test.cpp cooked_format_test.cpp)
 target_link_libraries(avernal-assets-render-tests PRIVATE avernal::assets_render GTest::gtest_main)
 
 if(CMAKE_CXX_COMPILER_ID MATCHES "Clang|GNU")
